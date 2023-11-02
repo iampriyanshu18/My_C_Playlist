@@ -13,7 +13,7 @@ int main()
     //     printf("\n");
     // }
     for(int i=0; i<n; i++){
-        
+        newfile;
     }
     return 0;
 }
