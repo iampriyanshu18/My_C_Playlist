@@ -12,6 +12,8 @@ int main()
     //     }
     //     printf("\n");
     // }
-    for()
+    for(int i=0; i<n; i++){
+        
+    }
     return 0;
 }
