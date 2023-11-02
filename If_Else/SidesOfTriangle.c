@@ -1,20 +1,22 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
-    printf("Enter 1st side:");
+    int a;
+    printf("Enter 1st side :");
     scanf("%d",&a);
-    printf("Enter 2nd side:");
+    int b;
+    printf("Enter 2nd side :");
     scanf("%d",&b);
-    printf("Enter 3rd side:");
+    int c;
+    printf("Enter 3rd side :");
     scanf("%d",&c);
-    if((a+b)>c && (b+c)>a && (c+a)>b)
+    if((a+b)>c && (b+c)>a && (a+c)>b)
     {
-        printf("valid triangle");
+        printf("Valid triangle");
     }
     else
     {
-        printf("invalid triangle");
+        printf("Invalid triangle");
     }
     return 0;
 }
