@@ -9,10 +9,12 @@ int main()
         int a=1;
         for(int j=1;j<=i;j++)
         {
-        printf("%d ",a);
-        a=a+2;
+            int d=a+64;
+            char ch=(char)d;
+            printf("%c ",ch);
+            a++;
         }
         printf("\n");
-    }    
+    }
     return 0;
 }
